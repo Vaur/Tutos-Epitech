@@ -20,7 +20,7 @@ Prérequis: être sudo ou root sur Opensuse STD, si vous n'êtes pas root voir m
 sudo vim /etc/dhclient.conf
 ```
 
-```vim
+```
 déplacer le cursor vers la fin du fichier
 taper i
 
