@@ -94,4 +94,6 @@ taper
 faire entrer
 ```
 
+##Reboot
+
 Pour quitter le mode single user appuyer sur le boutton de démarrage jusqu'à ce que votre ordi s'éteigne.
