@@ -56,7 +56,7 @@ BAD PASSWORD: it is based on a dictionary word
 BAD PASSWORD: is too simple
 ```
 
-Ne pas s'alarmer, surtout ne pas changer de mot de passe. Mettez bien le même mot de passe, que vous avez entré la première fois. Il peut vous arriver des surprises
+Ne pas s'alarmer, surtout ne pas changer de mot de passe. Mettez bien le même mot de passe, que vous avez entré la première fois. Sinon il peut vous arriver des surprises.
 
 ##Passer sudo
 
