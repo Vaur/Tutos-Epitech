@@ -24,9 +24,13 @@ On va tout d'abord booter sur Opensuse STD en mode single user. Au moment où vo
 selectionner Opensuse STD
 taper e
 
+changer la ligne suivante:
+linux /boot/vmlinuz-std root=/dev/sda5 resume=/dev/sda6 splash=silent quiet showopts
 
+en:
+linux /boot/vmlinuz-std root=/dev/sda5 resume=/dev/sda6 splash=silent quiet showopts init=/bin/sh
 
-entrer
+appuyer sur f10
 ```
 
 Vous êtes maintenant en mode single user. Avant de passer root ou sudo il faut se mettre en azerty.
