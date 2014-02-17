@@ -84,9 +84,9 @@ Vous devriez maintenant avoir:
 ##ALL   ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!
 
 descendre jusqu'à la ligne 72
-en dessous de la ligne : "root ALL=(ALL) ALL" 
+en dessous de la ligne : "root ALL=(ALL) ALL"
 
-ajouter la ligne:
+ajouter la ligne suivante et remplacer votre_login par le login que vous utiliser sur votre OpenSUSE:
 votre_login ALL=(ALL) ALL
 
 faire echap
