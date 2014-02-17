@@ -8,4 +8,5 @@
 
 ### Passer sudo ou root sur le dump
 
-(à venir)
+[Passer Root](https://github.com/Vaur/Tutos-Epitech/blob/master/be-root.md "Passer root")
+
