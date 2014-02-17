@@ -43,4 +43,51 @@ Pour être root sur votre machine c'est très simple:
 passwd
 ```
 
+Taper 2 fois le mot de passe de votre choix, puis entrer.
+En cas de Warning tel que:
 
+```passwd
+BAD PASSWORD: it is based on a dictionary word
+BAD PASSWORD: is too simple
+```
+
+Ne pas s'alarmer, surtout ne pas changer de mot de passe. Mettez bien le même mot de passe, que vous avez entré la première fois. Il peut vous arriver des surprises
+
+##Passer sudo
+
+Passer sudo est à peine plus compliqué que ça.
+Tout d'abord:
+
+```shell
+sudo vim /etc/sudoers
+```
+
+```
+se déplacer ligne 61
+
+taper i
+
+
+ajouter ## devant ces deux lignes:
+
+Defaults targetpw   # ask for the password of the target user i.e. root
+ALL   ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!
+
+Vous devriez maintenant avoir:
+
+##Defaults targetpw   # ask for the password of the target user i.e. root
+##ALL   ALL=(ALL) ALL   # WARNING! Only use this together with 'Defaults targetpw'!
+
+descendre jusqu'à la ligne 72
+en dessous de la ligne : "root ALL=(ALL) ALL" 
+
+ajouter la ligne:
+votre_login ALL=(ALL) ALL
+
+faire echap
+taper
+:x
+faire entrer
+```
+
+Pour quitter le mode single user appuyer sur le boutton de démarrage jusqu'à ce que votre ordi s'éteigne.
