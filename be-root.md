@@ -9,7 +9,8 @@ Installer d'autres programmes, ou encore avoir un total contrôle sur votre dump
 
 ## Avertissement
 
-> Un grand pouvoir implique une grande responsabilité
+> "Un grand pouvoir implique une grande responsabilité."
+
 Voltaire
 
 Attention, une fois root, vous pouvez faire tout et n'importe quoi sur vos dump. Si vous faites une connerie vous êtes le seul responsable, surtout si vous devez redump.
