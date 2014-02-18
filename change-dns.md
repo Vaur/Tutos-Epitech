@@ -17,7 +17,7 @@ Il suffira, au moment de mettre les IP, de changer pour le DNS de votre choix.
 Prérequis: être sudo ou root sur Opensuse STD, si vous n'êtes pas root voir mon tuto (à venir).
 
 ```shell
-sudo vim /
+sudo vim /etc/sysconfig/network/config
 ```
 
 ```
