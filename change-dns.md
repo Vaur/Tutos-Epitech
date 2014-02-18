@@ -14,7 +14,7 @@ Si le serveur DNS du bocal n'est pas à jour, alors il n'y a qu'a utiliser d'aut
 J'ai personnellement opté pour les DNS de Google, mais vous pouvez très bien choisir n'importe quel serveur que vous voulez (e.g. OpenDNS)
 Il suffira, au moment de mettre les IP, de changer pour le DNS de votre choix.
 
-Prérequis: être sudo ou root sur Opensuse STD, si vous n'êtes pas root voir mon tuto (à venir).
+Prérequis: être sudo ou root sur Opensuse STD, si vous n'êtes pas root voir [mon tuto](https://github.com/Vaur/Tutos-Epitech/blob/master/be-root.md "Passer root").
 
 ```shell
 sudo vim /etc/sysconfig/network/config
