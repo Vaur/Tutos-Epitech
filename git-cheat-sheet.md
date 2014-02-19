@@ -49,3 +49,7 @@ Attention, si vous donnez uniquement w la personne ne pourra pas clone le dépot
 ```blih
 blih repository setacl nom_du_depot login rw
 ```
+
+# Plus ?
+
+Si vous voulez un vrai tuto sur git, n'hésitez pas à m'envoyer un [email](mailto:xavier.devilliers@epitech.eu), Git étant un outil très puissant, il y a beaucoup à couvrir.
