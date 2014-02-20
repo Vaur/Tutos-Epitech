@@ -3,8 +3,8 @@
 ##Pourquoi ?
 
 Il y a plusieurs avantages au fait d'être root sur le dump. Tout d'abord vous pourrez appliquer d'autres tutos présent sur le dépot
-(i.e. [Changer les DNS](https://github.com/Vaur/Tutos-Epitech/blob/master/change-dns.md).
-Installer d'autres programmes, ou encore avoir un total contrôle sur votre dump.
+(i.e. [Changer les DNS](https://github.com/Vaur/Tutos-Epitech/blob/master/change-dns.md), installer d'autres programmes (i.e. Ocaml qui n'est pas présent par défault)
+, ou encore avoir un total contrôle sur votre dump.
 
 
 ## Avertissement
