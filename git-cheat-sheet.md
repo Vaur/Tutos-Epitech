@@ -50,6 +50,12 @@ Attention, si vous donnez uniquement w la personne ne pourra pas clone le dépot
 blih repository setacl nom_du_depot login rw
 ```
 
+Voir les droits d'accès du dépots:
+
+```blih
+blih repository getacl test
+```
+
 # Plus ?
 
 Si vous voulez un vrai tuto sur git, n'hésitez pas à m'envoyer un [email](mailto:xavier.devilliers@epitech.eu). Git étant un outil très puissant, il y a beaucoup à couvrir.
