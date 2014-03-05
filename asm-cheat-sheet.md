@@ -12,11 +12,13 @@ rdx ;; troisieme parametre
 
 ```asm
 function:
-	push	rbp				;; prologue
+	;; prologue
+	push	rbp				
 	mov		rbp,	rsp
 
 function_end:
-	mov		rsp,	rbp		;; epilogue
+	;; epilogue
+	mov		rsp,	rbp
 	pop		rbp
 	ret
 ```
