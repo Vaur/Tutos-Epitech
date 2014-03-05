@@ -3,9 +3,9 @@
 ## Registre pour les paramètres
 
 ```asm
-rdi ; premier paramètre
-rsi ; second paramètre
-rdx ; troisième paramètre
+rdi ; premier parametre
+rsi ; second parametre
+rdx ; troisième parametre
 ```
 
 ## prologue et epilogue
@@ -13,10 +13,10 @@ rdx ; troisième paramètre
 ```asm
 function:
 	push	rbp
-	mov	rbp,	rsp
+	mov		rbp,	rsp
 
 function_end:
-	mov	rsp,	rbp
-	pop	rbp
+	mov		rsp,	rbp
+	pop		rbp
 	ret
 ```
