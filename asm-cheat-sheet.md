@@ -5,7 +5,7 @@
 ```asm
 rdi ; premier parametre
 rsi ; second parametre
-rdx ; troisième parametre
+rdx ; troisieme parametre
 ```
 
 ## prologue et epilogue
