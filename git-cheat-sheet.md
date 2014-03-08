@@ -13,7 +13,7 @@ git add fichier
 Enregistrer les changements
 
 ```git
-git commit -m "messgae de commit"
+git commit -m "message de commit"
 ```
 
 Envoyer les changements au serveur
