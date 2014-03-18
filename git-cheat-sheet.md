@@ -34,6 +34,13 @@ Se connecter à un dépot déjà existant (remplacer depot par le nom du dépôt
 git clone login@git.epitech.eu:/login_prop/depot
 ```
 
+Ajouter un dépot remote à un dépot local déjà existant:
+
+```git
+git remote add origin login@git.epitech.eu:/login_prop/depot
+git push origin master
+```
+
 ## Gestion du dépot Epitech avec BLIH
 
 Créer un dépot de rendu
