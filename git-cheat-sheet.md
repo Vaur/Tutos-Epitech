@@ -63,6 +63,32 @@ Voir les droits d'accès du dépots:
 blih repository getacl test
 ```
 
+## Gestion de plsuieurs repos
+
+Je possède un serveur privé sur le quel j'envois mes commits en plus du dépot d'epitech.
+Voici quelques commandes pour gérer un tel cas.
+
+Ajouter un serveur remote
+```git
+git remote add nom_remote user@url_remote
+```
+
+Envois d'une branch à remote
+```git
+git push -u nom_remote branch
+```
+
+Créer un repertoire sur remote (pour pouvoir lui envoyer ce que vous avez déjà fait)
+```bash
+mkdir repository && cd repository
+git init --bare
+```
+Ajouter une branch provenant d'un remote.
+
+```git
+git fetch remote branch_remote:branch_local
+```
+
 # Plus ?
 
 Si vous voulez un vrai tuto sur git, n'hésitez pas à m'envoyer un [email](mailto:xavier.devilliers@epitech.eu). Git étant un outil très puissant, il y a beaucoup à couvrir.
