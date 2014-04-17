@@ -63,7 +63,7 @@ Voir les droits d'accès du dépots:
 blih repository getacl test
 ```
 
-## Gestion de plsuieurs repos
+## Gestion de plusieurs repos
 
 Je possède un serveur privé sur le quel j'envois mes commits en plus du dépot d'epitech.
 Voici quelques commandes pour gérer un tel cas.
