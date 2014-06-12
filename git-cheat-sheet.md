@@ -13,7 +13,7 @@ git add fichier
 Enregistrer les changements
 
 ```git
-git commit -m "messgae de commit"
+git commit -m "message de commit"
 ```
 
 Envoyer les changements au serveur
@@ -32,6 +32,13 @@ Se connecter à un dépot déjà existant (remplacer depot par le nom du dépôt
 
 ```git
 git clone login@git.epitech.eu:/login_prop/depot
+```
+
+Ajouter un dépot remote à un dépot local déjà existant:
+
+```git
+git remote add origin login@git.epitech.eu:/login_prop/depot
+git push origin master
 ```
 
 ## Gestion du dépot Epitech avec BLIH
@@ -54,6 +61,32 @@ Voir les droits d'accès du dépots:
 
 ```blih
 blih repository getacl test
+```
+
+## Gestion de plusieurs repos
+
+Je possède un serveur privé sur le quel j'envois mes commits en plus du dépot d'epitech.
+Voici quelques commandes pour gérer un tel cas.
+
+Ajouter un serveur remote
+```git
+git remote add nom_remote user@url_remote
+```
+
+Envois d'une branch à remote
+```git
+git push -u nom_remote branch
+```
+
+Créer un repertoire sur remote (pour pouvoir lui envoyer ce que vous avez déjà fait)
+```bash
+mkdir repository && cd repository
+git init --bare
+```
+Ajouter une branch provenant d'un remote.
+
+```git
+git fetch remote branch_remote:branch_local
 ```
 
 # Plus ?
