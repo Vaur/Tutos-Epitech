@@ -1,0 +1,26 @@
+##
+## .gitignore for gitignore in /home/vaur/epitech/cpp_bomberman
+##
+## Made by vaur
+## Login   <vaur@epitech.net>
+##
+## Started on  Wed Jun 11 01:38:52 2014 vaur
+## Last update Wed Jun 11 01:57:49 2014 vaur
+##
+
+## Binary
+bomberman
+*.out
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.a
+*.obj
+*~
+
+## Generated folder
+doc/html
+doc/latex
+obj/
