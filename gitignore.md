@@ -1,21 +1,21 @@
-# Gitignore : forcer git a ignorer des fichiers
+# Gitignore : forcer git à ignorer des fichiers
 
 ## Explications
 
-Il arrive lorsque l'on travail sur un projet que les membres de son groupe se mette à envoyer sur le dépot des fichiers qui n'ont strictement rien à faire sur le dépots. Exemple: les .o et les binaires généré par le makefile.
+Il arrive lorsque l'on travaille sur un projet que les membres de son groupe se mettent à envoyer sur le dépôt des fichiers qui n'ont strictement rien à y faire. Exemple: les .o et les binaires générés par le Makefile.
 
-Ce genre de chose alourdi énormément le dépot. Ainsi dans l'un de mes projets. Les points .o représentait 78.81% du dépot total.
+Ce genre de choses alourdissent énormément le dépot. Ainsi dans l'un de mes projets, les extensions .o représentaient 78.81% du dépôt total.
 
-Pour éviter de retrouver son dépot avec des fichiers absolument inutile. Il suffit de créer un fichier .gitignore à la racine de son dépot, qui contient les fichiers à ignorer et de le commit.
+Pour éviter de retrouver son dépôt avec des fichiers absolument inutiles il suffit de créer un fichier .gitignore à la racine de son dépôt qui contiendra les fichiers à ignorer et de le commit.
 
 Exemple:
 
 ```.gitignore
 bomberman ## le binaire qui est généré par le makefile
 
-*.o ## les fichiers temporaires créer par le makefile
+*.o ## les fichiers temporaires créés par le makefile
 
-*.~ ## les sauvegardes créé lorsqu'on a édité un fichier
+*.~ ## les sauvegardes créés lorsqu'on a édité un fichier
 
 ```
 
