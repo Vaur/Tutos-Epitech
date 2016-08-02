@@ -1,4 +1,8 @@
-#Etre Root
+# Etre Root
+
+# Attention, ce tutoriel est vieux, car il date d'il y a 4 ans. Le dump epitech a bien changé et je n'utilise plus celui-ci. 
+
+Voir #1
 
 ##Pourquoi ?
 
