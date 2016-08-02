@@ -2,7 +2,7 @@
 
 # Attention, ce tutoriel est vieux, car il date d'il y a 4 ans. Le dump epitech a bien changé et je n'utilise plus celui-ci. 
 
-Voir #1
+Voir [#1](https://github.com/Vaur/Tutos-Epitech/issues/1)
 
 ##Pourquoi ?
 
